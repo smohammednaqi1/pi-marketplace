@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- The Pi Network SDK Script -->
+    <script src="https://sdk.pi.network/pi-sdk.js"></script>
+    <script>Pi.init({ version: "2.0", sandbox: true })</script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pi Marketplace</h1>
+        <p>Buy and Sell Goods with your Pi!</p>
+    </header>
+
+    <main>
+        <div id="product-grid" class="product-grid">
+            <!-- Products will be dynamically inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Pi Marketplace MVP © 2023</p>
+    </footer>
+
+    <!-- Your App's JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>
